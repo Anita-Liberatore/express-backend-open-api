@@ -1,4 +1,4 @@
-# node-express-open-api-skeleton
+# node-express-open-api
 A Node Express skeleton that comes with openapi/swagger already configured including routing with the help of the [`swagger-routes-express`](https://github.com/davesag/swagger-routes-express) package.
 
 # Installation
