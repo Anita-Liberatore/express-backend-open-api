@@ -1,0 +1,13 @@
+openapi: 3.0.0
+info:
+  description: API
+  version: 1.0.0
+  title: API Docs Title
+servers:
+  - url: /api/v1
+  
+paths:
+  /users:
+    $ref: "./paths/users.yaml"
+  /ping:
+    $ref: "./paths/ping.yaml"

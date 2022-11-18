@@ -1,0 +1,15 @@
+get:
+  summary: Return a boolean for ping check.
+  operationId: getPing
+  description: Boolean check for ping endpoint
+  tags:
+    - Ping
+  responses:
+    '200':
+      description: A boolean for check ping
+      content:
+        application/json:
+          schema: 
+            type: string
+    default:
+      $ref: "../responses/server-error.yaml"
